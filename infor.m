@@ -2,7 +2,7 @@
 clear all
 clc
 
-num=input('Introduzca un número entero:)
+num=input('Introduzca un número entero:')
 
 factorial=1
 
@@ -13,5 +13,5 @@ end
 if num>=0
     disp(['El factorial de',num2str(num),'es:',factorial])
 else
-    disp(['El factorial de',num,'es:',factorial])
+    disp(['El factorial de',num2str(num),'es:',factorial])
 end
